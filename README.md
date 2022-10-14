@@ -10,8 +10,8 @@ Ver la sección [preparar repositorio](https://github.com/I110IS/lab1/blob/maste
 
 ## Práctica
 
-1. Copiar `app/views/monsters/index.html.erb` y `app/views monsters/show.html.erb` del laboratorio 3 (Vistas).
-    1. Copiar también el archivo de estilos si es necesario.
+1. Copiar `app/views/monsters/index.html.erb` y `app/views monsters/show.html.erb` del laboratorio 3 (Vistas). x
+    1. Copiar también el archivo de estilos si es necesario.x
 1. Crear las rutas para los tweets
 1. Crear el controlador para los tweets y crear una acción para el index:
     1. Se debe obtener todos los tweets de la base de datos y guardarlos en `@tweets`
