@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :tweets, only: [:new, :index, :show]
   root "tweets#index"
   resolve("new_tweet_path") {route_for(:new)}
-  resolve("hacer_tweet") {route_for()}
+  resolve("Twittear" ) {route_for(:id)}
 end
