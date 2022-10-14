@@ -6,11 +6,13 @@ class TweetsController < ApplicationController
     def show
         @tweet = Tweet.find(params[:id])
     end
-    
+    def new
+        @tweet = Tweet.new
+    end
     def create
         @tweet = Tweet.new(tweet_params)
         if @tweet.save
-            redict_to @tweet, notice: "Se ha creado el Tweet correctamente!"
+            redirect_to @tweet, notice: "Se ha creado el Tweet correctamente!"
         else
             render :new
         end

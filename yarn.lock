@@ -75,9 +75,9 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"esbuild-linux-64@0.15.5":
-  "integrity" "sha512-ne0GFdNLsm4veXbTnYAWjbx3shpNKZJUd6XpNbKNUZaNllDZfYQt0/zRqOg0sc7O8GQ+PjSMv9IpIEULXVTVmg=="
-  "resolved" "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.15.5.tgz"
+"esbuild-windows-64@0.15.5":
+  "integrity" "sha512-v+PjvNtSASHOjPDMIai9Yi+aP+Vwox+3WVdg2JB8N9aivJ7lyhp4NVU+J0MV2OkWFPnVO8AE/7xH+72ibUUEnw=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.5.tgz"
   "version" "0.15.5"
 
 "esbuild@^0.15.3":

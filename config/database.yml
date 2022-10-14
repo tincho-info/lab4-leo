@@ -24,8 +24,8 @@ default: &default
 development: &dev
   <<: *default
   database: lab1_development
-  username: leo
-  password: 12345
+  username: postgres
+  password: Pepe1234
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: lab1_production
-  username: leo
-  password: 12345
+  username: postgres
+  password: Pepe1234
